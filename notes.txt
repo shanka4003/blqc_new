@@ -1,0 +1,6 @@
+test 1 :115.19 fps 15KHz speed max microstepping width 32 height 544
+
+last run : 
+                    num_frames = 2000
+                    fps = 109.22
+                    motor speed 3.2k

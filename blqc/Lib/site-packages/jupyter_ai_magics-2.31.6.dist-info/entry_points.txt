@@ -1,0 +1,35 @@
+[jupyter_ai.embeddings_model_providers]
+azure = jupyter_ai_magics.partner_providers.openai:AzureOpenAIEmbeddingsProvider
+bedrock = jupyter_ai_magics.partner_providers.aws:BedrockEmbeddingsProvider
+cohere = jupyter_ai_magics.partner_providers.cohere:CohereEmbeddingsProvider
+gpt4all = jupyter_ai_magics:GPT4AllEmbeddingsProvider
+huggingface_hub = jupyter_ai_magics:HfHubEmbeddingsProvider
+mistralai = jupyter_ai_magics.partner_providers.mistralai:MistralAIEmbeddingsProvider
+ollama = jupyter_ai_magics.partner_providers.ollama:OllamaEmbeddingsProvider
+openai = jupyter_ai_magics.partner_providers.openai:OpenAIEmbeddingsProvider
+openai-custom = jupyter_ai_magics.partner_providers.openai:OpenAIEmbeddingsCustomProvider
+qianfan = jupyter_ai_magics:QianfanEmbeddingsEndpointProvider
+vertexai = jupyter_ai_magics.partner_providers.vertexai:VertexAIEmbeddingsProvider
+
+[jupyter_ai.model_providers]
+ai21 = jupyter_ai_magics:AI21Provider
+amazon-bedrock = jupyter_ai_magics.partner_providers.aws:BedrockProvider
+amazon-bedrock-chat = jupyter_ai_magics.partner_providers.aws:BedrockChatProvider
+amazon-bedrock-custom = jupyter_ai_magics.partner_providers.aws:BedrockCustomProvider
+anthropic-chat = jupyter_ai_magics.partner_providers.anthropic:ChatAnthropicProvider
+azure-chat-openai = jupyter_ai_magics.partner_providers.openai:AzureChatOpenAIProvider
+cohere = jupyter_ai_magics.partner_providers.cohere:CohereProvider
+gemini = jupyter_ai_magics.partner_providers.gemini:GeminiProvider
+gpt4all = jupyter_ai_magics:GPT4AllProvider
+huggingface_hub = jupyter_ai_magics:HfHubProvider
+mistralai = jupyter_ai_magics.partner_providers.mistralai:MistralAIProvider
+nvidia-chat = jupyter_ai_magics.partner_providers.nvidia:ChatNVIDIAProvider
+ollama = jupyter_ai_magics.partner_providers.ollama:OllamaProvider
+openai = jupyter_ai_magics.partner_providers.openai:OpenAIProvider
+openai-chat = jupyter_ai_magics.partner_providers.openai:ChatOpenAIProvider
+openai-chat-custom = jupyter_ai_magics.partner_providers.openai:ChatOpenAICustomProvider
+openrouter = jupyter_ai_magics.partner_providers.openrouter:OpenRouterProvider
+qianfan = jupyter_ai_magics:QianfanProvider
+sagemaker-endpoint = jupyter_ai_magics.partner_providers.aws:SmEndpointProvider
+together-ai = jupyter_ai_magics:TogetherAIProvider
+vertexai = jupyter_ai_magics.partner_providers.vertexai:VertexAIProvider

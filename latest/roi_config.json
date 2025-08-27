@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "anchor": "barcode",
+    "ref_barcode_index": 0,
+    "relative": true,
+    "note": "ROIs normalized to chosen barcode box (dx,dy,w,h / (bw,bh))."
+  },
+  "batch_roi": {
+    "x": 1465,
+    "y": 435,
+    "w": 327,
+    "h": 128
+  },
+  "expiry_roi": {
+    "x": 1465,
+    "y": 435,
+    "w": 327,
+    "h": 128
+  },
+  "batch_roi_rel": {
+    "dx": -0.12,
+    "dy": 1.9090909090909092,
+    "w": 1.1890909090909092,
+    "h": 5.818181818181818
+  },
+  "expiry_roi_rel": {
+    "dx": -0.12,
+    "dy": 1.9090909090909092,
+    "w": 1.1890909090909092,
+    "h": 5.818181818181818
+  },
+  "line_roi": {
+    "x": 76,
+    "y": 11,
+    "w": 1955,
+    "h": 23
+  }
+}

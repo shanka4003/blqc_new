@@ -1,0 +1,12 @@
+[jupyter_ai.chat_handlers]
+ask = jupyter_ai.chat_handlers.ask:AskChatHandler
+clear = jupyter_ai.chat_handlers.clear:ClearChatHandler
+default = jupyter_ai.chat_handlers.default:DefaultChatHandler
+export = jupyter_ai.chat_handlers.export:ExportChatHandler
+fix = jupyter_ai.chat_handlers.fix:FixChatHandler
+generate = jupyter_ai.chat_handlers.generate:GenerateChatHandler
+help = jupyter_ai.chat_handlers.help:HelpChatHandler
+learn = jupyter_ai.chat_handlers.learn:LearnChatHandler
+
+[jupyter_ai.default_tasks]
+core_default_tasks = jupyter_ai:tasks
