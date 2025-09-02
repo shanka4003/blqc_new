@@ -8,7 +8,7 @@ import cv2 as cv
 
 # Load image from file
 
-image = Image.open("2025-08-25_18-42-39_328.jpg")
+image = Image.open("test1.png")
 image = image.rotate(90, expand=True)
 # Extract text
 text = pytesseract.image_to_string(image)
